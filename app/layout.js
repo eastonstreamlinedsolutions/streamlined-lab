@@ -4,7 +4,9 @@ export default function RootLayout({ children }) {
       <head>
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body>{children}</body>
+      <body style={{ margin: 0, padding: 0, backgroundColor: '#f4f4f5' }}>
+        {children}
+      </body>
     </html>
   )
 }
